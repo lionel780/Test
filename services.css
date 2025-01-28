@@ -1,0 +1,474 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #fafafa;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    width: 100%;
+    height: auto;
+}
+
+.limite{
+    width: 90%;
+}
+
+h2{
+    font-size: 20px;
+    color: #3889f2;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.description{
+    font-size: 40px;
+    font-weight: bold;
+    color: #010227;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .logo, header nav .liens, header nav .liens ul, header nav .bouton{
+    display: flex;
+    align-items: center;
+}
+
+header nav .logo img{
+    height: 4rem;
+    width: 4rem;
+}
+
+header nav .logo h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #010227;
+}
+
+header nav .liens ul{
+    list-style-type: none;
+}
+
+header nav .liens ul li a{
+    color: #010227;
+    opacity: 0.5;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 10px;
+}
+
+header nav .liens ul li a:hover{
+    color: #FB5607;
+}
+
+header nav .liens .search{
+    position: relative;
+    margin-left: 10px;
+}
+
+header nav .liens .search input{
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0px 0px 1px rgba(68, 68, 68, 0.5);
+    color: rgba(1, 2, 39, 0.5);
+    padding-left: 20px;
+    outline: none;
+}
+
+header nav .liens .search input:hover{
+    box-shadow: 0px 0px 4px #FB5607;
+}
+
+header nav .liens .search i{
+    position: absolute;
+    color: #010227;
+    opacity: 0.6;
+    top: 12px;
+    left: 225px;
+}
+
+header nav .liens .search i:hover{
+    color: #FB5607;
+}
+
+header nav .bouton{
+    gap: 20px;
+}
+
+header nav .bouton button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #FB5607;
+    border-radius: 50px;
+}
+
+header nav .bouton button:hover{
+    background-color: #010227;
+}
+
+header nav .bouton button a{
+    color: white;
+    font-size: 12px;
+}
+
+header nav .bouton i{
+    color: #010227;
+    opacity: 0.5;
+    font-size: 30px;
+}
+
+header nav .bouton i:hover{
+    color: #FB5607;
+}
+
+main{
+    height: auto;
+    width: 100%;
+}
+
+main .offer{
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+main .offer .limite{
+    display: flex;
+    flex-direction: column;
+}
+
+main .offer .limite #home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 90px;
+}
+
+main .offer .limite #home .p1{
+    padding-top: 150px;
+    /* width: 50%; */
+}
+
+main .offer .limite #home .p1 img{
+    width: 480px;
+    border-radius: 5px;
+}
+
+main .offer .limite #home .presentation{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+main .offer .limite #home .presentation .image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+main .offer .limite #home .presentation .image img:first-child{
+    width: 330px;
+    height: 220px;
+    border-radius: 5px;
+}
+
+main .offer .limite #home .presentation .image img:last-child{
+    width: 230px;
+    height: 153px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+main .offer .limite #home .presentation div p{
+    font-size: 15px;
+    color: rgba(1, 2, 39, 0.5);
+    line-height: 25px;
+}
+
+main .offer .limite #home .presentation div button{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: #FB5607;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+main .offer .limite #home .presentation div button:hover{
+    background-color: #010227;
+}
+
+main .offer .limite #home .presentation div button a, main .offer .limite #home .presentation div button i{
+    color: white;
+    font-size: 12px;
+
+}
+
+main #featured{
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: white;
+}   
+
+main #featured .limite .title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+main #featured .limite .groupe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+main #featured .limite .groupe .double{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+main #featured .limite .groupe img{
+    width: 528px;
+    height: 351px;
+    border-radius: 5px;
+}
+
+main #featured .limite .groupe .double .un p{
+    font-size: 15px;
+    color: rgba(1, 2, 39, 0.5);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+main #featured .limite .groupe .double .un h2{
+    margin-left: 20px;
+}
+
+main #featured .limite .groupe button{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: #FB5607;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+main #featured .limite .groupe button:hover{
+    background-color: #010227;
+}
+
+main #featured .limite .groupe button a, main #featured .limite .groupe button i{
+    color: white;
+    font-size: 12px;
+}
+
+main #choose{
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+main #choose .limite .title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+main #choose .limite .triple{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+main #choose .limite .triple .cadre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 10px;
+    width: 300px;
+    height: 150px;
+
+}
+
+main #choose .limite .triple .cadre .icons i{
+    padding: 30px;
+}
+
+.footer {
+    background-color: #2b2d42;
+    color: #ffffff;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+}
+
+.footer-section h2, .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.join-now {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.join-now i {
+    margin-left: 5px;
+}
+
+.read-more{
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 25%; 
+  
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.socials-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #ff6600;
+    font-size: 18px;
+}
+
+.popular ul, .links ul {
+    list-style: none;
+}
+
+.popular ul li, .links ul li {
+    margin-bottom: 10px;
+}
+
+.popular ul li a, .links ul li a {
+    font-size: 14px;
+}
+
+.newsletter form {
+    display: flex;
+    gap: 10px;
+}
+
+.newsletter input {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.newsletter button {
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.newsletter button i {
+    font-size: 16px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.footer-bottom a {
+    color: #ff6600;
+    text-decoration: none;
+} 

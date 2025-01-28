@@ -1,0 +1,289 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style de la section Contact Us */
+section#contact {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+section#contact h4 {
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-info {
+    width: 40%;
+    text-align: left;
+}
+
+.left-info div {
+    margin-bottom: 20px;
+}
+
+.left-info img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.right-form {
+    width: 50%;
+    text-align: left;
+}
+
+.right-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-form form label {
+    margin-bottom: 10px;
+}
+
+.right-form form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.right-form form button {
+    padding: 10px;
+    background-color: #FB5607;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 50%;
+    margin-left: 50%;
+}
+
+.right-form form button:hover {
+    background-color: #555;
+}
+
+/* Style de la carte */
+.map {
+    margin-top: 40px;
+}
+
+.map img {
+    width: 100%;
+    max-width: 600px;
+}
+.bold{
+    font-weight: bold;
+}
+h4{
+    color: #38A1F3;
+}
+
+.navbar {
+    display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        padding: 10px 20px;
+        border-bottom: 1px solid #ddd;
+        box-shadow: 0 2px 5px rgba(0,0,0.1);
+        position: fixed;
+        width: 100%;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .search-enquire {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-enquire input {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-right: 10px;
+  }
+  
+  .enquire-btn {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .footer {
+    background-color: #2b2d42;
+    color: #ffffff;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+}
+
+.footer-section h2, .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.join-now {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.join-now i {
+    margin-left: 5px;
+}
+
+.read-more{
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 25%; 
+  
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.socials-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #ff6600;
+    font-size: 18px;
+}
+
+.popular ul, .links ul {
+    list-style: none;
+}
+
+.popular ul li, .links ul li {
+    margin-bottom: 10px;
+}
+
+.popular ul li a, .links ul li a {
+    font-size: 14px;
+}
+
+.newsletter form {
+    display: flex;
+    gap: 10px;
+}
+
+.newsletter input {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.newsletter button {
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.newsletter button i {
+    font-size: 16px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.footer-bottom a {
+    color: #ff6600;
+    text-decoration: none;
+} 
